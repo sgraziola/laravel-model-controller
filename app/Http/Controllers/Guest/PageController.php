@@ -16,6 +16,7 @@ class PageController extends Controller
 
     public function home()
     {
-        return view('home');
+        $bestMovies = Movie::where('vote', '>', 9)->get();
+        return view('home', compact('bestMovies'));
     }
 }

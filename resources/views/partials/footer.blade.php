@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <a href="{{route('home')}}">MOVIES</a>
+                <a href="{{route('home')}}"><img class="logo" src="https://png.pngitem.com/pimgs/s/8-81060_movie-lovers-movie-lovers-logo-hd-png-download.png" alt=""></a>
 
             </div>
 

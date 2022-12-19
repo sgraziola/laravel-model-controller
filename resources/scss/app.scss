@@ -1,1 +1,35 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+header{
+    .logo{
+        width: 130px;
+    }
+}
+
+main{
+
+    h1{
+        color: red;
+    }
+    .movies{
+
+        .card{
+            border: none;
+        }
+    }
+
+    .best_movies{
+        h2{
+            margin-bottom: 1.5rem;
+            color: cornflowerblue;
+        }
+        padding: 2rem 0;
+    }
+}
+
+footer{
+
+    .logo{
+        width: 80px;
+    }
+}
