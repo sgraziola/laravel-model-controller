@@ -9,9 +9,9 @@
             <div class="col-4">
                 <h3>Quick links</h3>
                 <ul>
-                    <li>home</li>
-                    <li>support</li>
-                    <li>news</li>
+                    <li>Home</li>
+                    <li>Support</li>
+                    <li>News</li>
                 </ul>
             </div>
 

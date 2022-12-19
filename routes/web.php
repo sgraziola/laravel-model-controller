@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Guest\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/collections', [PageController::class, 'index'])->name('collections');
+
+Route::get('/', [PageController::class, 'home'])->name('home');
