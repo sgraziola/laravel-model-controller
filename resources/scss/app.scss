@@ -7,9 +7,17 @@ header{
 }
 
 main{
+    background-image: url(https://images.pexels.com/photos/918281/pexels-photo-918281.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .jumbotron{
+        opacity: 0.9;
+        background-color: lightcyan;
+    }
 
     h1{
-        color: red;
+        color: darkcyan;
     }
     .movies{
 
@@ -23,7 +31,8 @@ main{
             margin-bottom: 1.5rem;
             color: cornflowerblue;
         }
-        padding: 2rem 0;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
     }
 }
 
